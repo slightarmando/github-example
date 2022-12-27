@@ -9,4 +9,5 @@ func main() {
 	fmt.Println(x)
 	y := 100 + 24
 	fmt.Println(y)
+	fmt.Println("Hello Mr.Bond, how are you doing today")
 }
