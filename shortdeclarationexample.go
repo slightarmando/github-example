@@ -10,4 +10,7 @@ func main() {
 	y := 100 + 24
 	fmt.Println(y)
 	fmt.Println("Hello Mr.Bond, how are you doing today")
+	y = 7 + 4
+	fmt.Println(y)
+
 }
