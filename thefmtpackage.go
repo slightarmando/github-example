@@ -15,4 +15,14 @@ func main() {
 	fmt.Printf("%x\n", y)
 	fmt.Println("Prints hexidecimal with zero x before it")
 	fmt.Printf("%#x\n", y)
+	fmt.Println("Prints mixed value")
+	fmt.Printf("%b\t%x\t%#x\n", y, y, y)
+
+	foo()
+}
+
+func foo() {
+	s := fmt.Sprintf("%b\t%x\t%#x\n", y, y, y)
+	fmt.Println("This uses Sprintf and ASSIGNS Var S with string of chars below")
+	fmt.Println(s)
 }
